@@ -1347,7 +1347,10 @@ p {
 
 .about-section {
     padding: 100px 0;
-    background: #fff;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+    ), url("../images/background-decorative.webp");
 }
 
 .about-label {
@@ -5234,13 +5237,13 @@ p {
     font-size: 52px;
     font-weight: 800;
     line-height: 1.1;
-    color: #142B5F;
+    color: var(--primary);
     margin-bottom: 24px;
 }
 
 .description-content h3 span {
     display: block;
-    color: #FDB515;
+    color: var(--secondary);
 }
 
 .description-divider {
@@ -5285,7 +5288,7 @@ p {
     font-size: 52px;
     font-weight: 800;
     line-height: 1.1;
-    color: var(--secondary);
+    color: var(--primary);
     margin-bottom: 24px;
 }
 
